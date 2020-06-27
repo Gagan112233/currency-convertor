@@ -1,0 +1,43 @@
+body {
+  background-color: #232F3E;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+label {
+  color: white;
+}
+
+h3 {
+  color: white;
+  text-align: center; /* To align the content to center of the screen */
+  
+}
+
+.container {
+/*   display: flex; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.common-class {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 35px;
+  outline: none;
+  margin: 10px;
+  width: 210px;
+}
+
+#countriesListOne:hover, #countriesListTwo:hover {
+  cursor: pointer;
+}
